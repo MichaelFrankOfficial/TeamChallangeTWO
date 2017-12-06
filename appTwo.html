@@ -14,23 +14,23 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand brandPOS" href="index.html">
+                    <img src="resources/MN.png" width="160" height="60" alt="">
+                </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="mainnav" aria-expanded="false"
                 aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mainnav">
                 <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="appOne.html">Fizz Buzz</a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Link One</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Two</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Three</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link Four</a>
+                        <a class="nav-link" href="appTwo.html">Car Manager</a>
                     </li>
                 </ul>
             </div>
@@ -40,7 +40,7 @@
         <form id="carInfoForm">
             <fieldset>
                 <legend>Car Info Form</legend>
-                <div class="container-fluid">
+                <div style="margin-left:25%;">
                     <div class="row">
                         <div class="form-group mb-2">
                             <input class="form-control" type="text" id="year" autofocus="true" placeholder="Enter Year">
@@ -55,18 +55,13 @@
                             <input class="form-control" type="text" id="vin" autofocus="true" placeholder="Enter VIN #">
                         </div>
                         <div>
-                            <button class="btn btn-dark" type="button" id="btnAddCar" style="margin-left:.4em;">Add Car</button>
+                            <button class="btn btn-dark" type="button" id="btnAddCar" style="width:12em;">Add Car</button>
                         </div>
                     </div>
                 </div>
             </fieldset>
         </form>
         <div id="printArea">
-<<<<<<< HEAD
-            
-=======
-
->>>>>>> 8785232feb9b39d8f3957027cb61bde4cd023463
         </div>
     </main>
 </body>
